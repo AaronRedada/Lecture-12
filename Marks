@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string array[5];
+
+    for (int x = 0; x < 5; x++)
+    {
+        int y = x + 1;
+        cout << "Enter mark no. " << y << " :\n";
+        cin >> array[x];
+    }
+
+    cout << endl << "Here are the Marks you entered:" << endl;
+
+    for (int z = 0; z < 5; z++)
+    {
+        cout << array[z] << endl;
+    }
+}
